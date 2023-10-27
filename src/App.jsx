@@ -50,9 +50,9 @@ function App() {
       <div className="container">
         <h1>Web Development Quizes</h1>
         {allQuizes.length - 1 === nextQuizIndex ? (
-          <p className="score">{score}</p>
+          <p className="score">{score}/10</p>
         ) : (
-          <p className="score">0</p>
+          <p className="score">0/10</p>
         )}
 
         <div className="quizes-container">
