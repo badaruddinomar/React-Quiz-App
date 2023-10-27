@@ -21,7 +21,7 @@ function App() {
     setNextQuizIndex(nextQuizIndex);
     if (allQuizes.length - 1 === nextQuizIndex) {
       setDisableBtn(true);
-      e.target.style.cursor = "not-allowed";
+      e.target.classList.add("hide-btn");
     }
     const list = document.querySelectorAll(".list");
     list.forEach((item) => {

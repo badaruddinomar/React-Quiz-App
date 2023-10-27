@@ -100,5 +100,10 @@ const questions = [
     ],
     correctOption: 1,
   },
+  {
+    id: "q11",
+    questionText: "",
+    options: ["Finished"],
+  },
 ];
 export default questions;

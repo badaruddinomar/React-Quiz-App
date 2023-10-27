@@ -54,6 +54,7 @@ body {
     height: 60px;
     line-height: 60px;
     font-size: 3rem;
+    padding: 1rem;
   }
 }
 .container .quizes-container {
@@ -73,7 +74,7 @@ body {
 .container .quizes-container .options li {
   font-size: 1.8rem;
   margin: 2rem 0;
-  color: #94a3b8;
+  color: white;
   margin-left: 2rem;
   transition: all 0.23s;
   cursor: pointer;
@@ -99,4 +100,7 @@ body {
   cursor: pointer;
   background: #0ea5e9;
   color: white;
+}
+.hide-btn {
+  display: none;
 }
