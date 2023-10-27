@@ -41,6 +41,7 @@ function App() {
     });
     if (e.target.classList.contains("list")) {
       e.target.style.background = "#0ea5e9";
+      e.target.style.color = "white";
     }
   };
 
