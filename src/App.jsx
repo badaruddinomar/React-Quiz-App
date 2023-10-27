@@ -40,7 +40,7 @@ function App() {
       item.style.background = "black";
     });
     if (e.target.classList.contains("list")) {
-      e.target.style.background = "red";
+      e.target.style.background = "#0ea5e9";
     }
   };
 
