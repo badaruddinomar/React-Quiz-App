@@ -1,0 +1,102 @@
+/* Font awesome link */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* Common css styling starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+  line-height: 1.6;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  max-height: auto;
+  padding: 10rem 2rem;
+  background-color: #0b2035;
+  font-family: "Roboto", sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+/* Common css styling ends here */
+.container h1 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  margin-top: 6rem;
+  color: #ffffff;
+}
+.container .score {
+  position: absolute;
+  top: 3rem;
+  right: 5rem;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+
+  font-size: 4rem;
+  color: white;
+  border-radius: 50%;
+  background: #0ea5e9;
+}
+@media (max-width: 768px) {
+  .container .score {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 3rem;
+  }
+}
+.container .quizes-container {
+  width: 700px;
+  transition: all 0.23s;
+}
+@media (max-width: 768px) {
+  .container .quizes-container {
+    width: 100%;
+  }
+}
+.container .quizes-container h3 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+.container .quizes-container .options li {
+  font-size: 1.8rem;
+  margin: 2rem 0;
+  color: #94a3b8;
+  margin-left: 2rem;
+  transition: all 0.23s;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  background: black;
+  transition: all 0.23s;
+}
+.black-bg {
+  background-color: black;
+  color: #94a3b8;
+}
+.container .quizes-container .options li:hover {
+  transform: translateY(2px);
+}
+.container .quizes-container .next-btn {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  padding: 1.5rem 4rem;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 2rem 0;
+  cursor: pointer;
+  background: #0ea5e9;
+  color: white;
+}
